@@ -1,0 +1,57 @@
+{
+   "logicalName":"EPSMLIST",
+   "path":"src/main/link/epsmlist.lnk",
+   "buildState":"87347e8fa01351f6fea5e0dc6e03284e971a63f8",
+   "source":"MortgageApplication",
+   "buildLabel":"13",
+   "buildTimestamp":"168094439",
+   "language":"ZBND",
+   "isCICS":"false",
+   "isSQL":"false",
+   "isDLI":"false",
+   "isMQ":"false",
+   "dependencySearchpath":"search:/u/build/repos/MortgageApplication",
+   "impactSearchpath":"search:/u/build/repos/MortgageApplication",
+   
+   "sources":[
+      {
+         "name":"MortgageApplication",
+         "type":"git",
+         "url":"git@github.com:drbruce-git/MortgageApplication.git",
+         "location":"/u/build/repos/MortgageApplication",
+         "branch":"development",
+         "buildCommit":"0f347e8fa01351f6fea5e0dc6e03284e971a63e5"
+      }
+   ],
+   
+   "dependencies":[ 
+   ],
+   
+   "outputDependencies":[
+      {
+         "lName":"EPSMLIST",
+         "category":"LINK",
+         "library":"BUILD.MORTGAGE.OBJ",
+         "member":"EPSMLIST",
+         "dataset":"BUILD.MORTGAGE.OBJ",
+         "file":"src/main/cobol/epsmlist.cbl",
+         "buildState":"87347e8fa01351f6fea5e0dc6e03284e971a63f8",
+         "source":"MortgageApplication" 
+      }
+   ],
+   
+   "outputs":[ 
+      {
+         "member":"EPSMLIST",
+         "dataset":"BUILD.MORTGAGE.LOAD",
+         "deployType":"LOAD"
+      }
+   ],
+   
+   "comments":[
+      "Scanned by com.ibm.dbb.dependency.DependencyScanner",
+      "MVSEXEC IEWBLINK RC=0",
+      "Scanned by com.ibm.dbb.dependency.LinkEditScanner"
+   ]
+   
+}

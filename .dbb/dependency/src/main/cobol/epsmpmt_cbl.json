@@ -1,0 +1,56 @@
+{
+   "logicalName":"EPSCMORT",
+   "path":"src/main/cobol/epscmort.cbl",
+   "buildState":"87347e8fa01351f6fea5e0dc6e03284e971a63f8",
+   "source":"MortgageApplication", 
+   "buildLabel":"13",
+   "buildTimestamp":"168094439",
+   "language":"COB",
+   "isCICS":"false",
+   "isSQL":"false",
+   "isDLI":"false",
+   "isMQ":"false",
+   "dependencySearchpath":"search:/u/build/repos/MortgageApplication",
+   "impactSearchpath":"search:/u/build/repos/MortgageApplication",
+   
+   "sources":[
+      {
+         "name":"MortgageApplication",
+         "type":"git",
+         "url":"git@github.com:drbruce-git/MortgageApplication.git",
+         "location":"/u/build/repos/MortgageApplication",
+         "branch":"development",
+         "buildCommit":"0f347e8fa01351f6fea5e0dc6e03284e971a63e5"
+      }
+   ],
+   
+   "dependencies":[ 
+      {
+         "lName":"EPSPDATA",
+         "category":"COPY",
+         "library":"SYSLIB",
+         "file":"src/main/cobol/copybook/epspdata.cpy",
+         "buildState":"87347e8fa01351f6fea5e0dc6e03284e971a63f8",
+         "source":"MortgageApplication" 
+      }
+   ],
+   
+   "outputDependencies":[
+   ],
+   
+   "outputs":[ 
+      {
+         "member":"EPSMPMT",
+         "dataset":"BUILD.MORTGAGE.LOAD",
+         "deployType":"LOAD"
+      }
+   ],
+   
+   "comments":[
+      "Scanned by com.ibm.dbb.dependency.DependencyScanner",
+      "MVSEXEC IGYCRCTL RC=4",
+      "MVSEXEC IEWBLINK RC=0",
+      "Scanned by com.ibm.dbb.dependency.LinkEditScanner"
+   ]
+   
+}

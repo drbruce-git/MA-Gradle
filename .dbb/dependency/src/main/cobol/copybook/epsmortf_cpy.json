@@ -1,0 +1,38 @@
+{
+   "logicalName":"EPSMORTF",
+   "path":"src/main/cobol/copybook/epsmortf.cpy",
+   "buildState":"87347e8fa01351f6fea5e0dc6e03284e971a63f8",
+   "source":"MortgageApplication",
+   "buildLabel":"13",
+   "buildTimestamp":"168094439",
+   "language":"COB",
+   "isCICS":"false",
+   "isSQL":"false",
+   "isDLI":"false",
+   "isMQ":"false",
+   
+   "sources":[
+      {
+         "name":"MortgageApplication",
+         "type":"git",
+         "url":"git@github.com:drbruce-git/MortgageApplication.git",
+         "location":"/u/build/repos/MortgageApplication",
+         "branch":"development",
+         "buildCommit":"0f347e8fa01351f6fea5e0dc6e03284e971a63e5"
+      }
+   ],
+
+   "dependencies":[ 
+   ],
+
+   "outputDependencies":[
+   ],
+   
+   "outputs":[  
+   ],
+   
+   "comments":[
+      "Scanned by com.ibm.dbb.dependency.DependencyScanner"
+   ]
+   
+}
