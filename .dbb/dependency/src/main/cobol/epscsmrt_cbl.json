@@ -24,7 +24,7 @@
       }
    ],
    
-   "dependencies":[ 
+   "inputs":[ 
       {
          "lName":"EPSMTCOM",
          "category":"COPY",
@@ -59,7 +59,7 @@
       }
    ],
    
-   "outputDependencies":[
+   "generatedInputs":[
    ],
    
    "outputs":[ 

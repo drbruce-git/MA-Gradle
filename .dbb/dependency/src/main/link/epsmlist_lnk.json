@@ -24,10 +24,10 @@
       }
    ],
    
-   "dependencies":[ 
+   "inputs":[ 
    ],
    
-   "outputDependencies":[
+   "generatedInputs":[
       {
          "lName":"EPSMLIST",
          "category":"LINK",

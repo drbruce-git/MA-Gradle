@@ -24,7 +24,7 @@
       }
    ],
    
-   "dependencies":[ 
+   "inputs":[ 
       {
          "lName":"EPSPDATA",
          "category":"COPY",
@@ -35,7 +35,7 @@
       }
    ],
    
-   "outputDependencies":[
+   "generatedInputs":[
    ],
    
    "outputs":[ 
