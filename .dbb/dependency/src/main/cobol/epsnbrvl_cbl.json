@@ -2,7 +2,7 @@
    "logicalName":"EPSNBRVL",
    "path":"src/main/cobol/epsnbrvl.cbl",
    "buildState":"87347e8fa01351f6fea5e0dc6e03284e971a63f8",
-   "source":"MortgageApplication", 
+   "source":"MA-Gradle", 
    "buildLabel":"13",
    "buildTimestamp":"168094439",
    "language":"COB",
@@ -10,15 +10,15 @@
    "isSQL":"false",
    "isDLI":"false",
    "isMQ":"false",
-   "dependencySearchpath":"search:/u/build/repos/MortgageApplication",
-   "impactSearchpath":"search:/u/build/repos/MortgageApplication",
+   "dependencySearchpath":"search:/u/build/repos/MA-Gradle",
+   "impactSearchpath":"search:/u/build/repos/MA-Gradle",
    
    "sources":[
       {
-         "name":"MortgageApplication",
+         "name":"MA-Gradle",
          "type":"git",
-         "url":"git@github.com:drbruce-git/MortgageApplication.git",
-         "location":"/u/build/repos/MortgageApplication",
+         "url":"git@github.com:drbruce-git/MA-Gradle.git",
+         "location":"/u/build/repos/MA-Gradle",
          "branch":"development",
          "buildCommit":"0f347e8fa01351f6fea5e0dc6e03284e971a63e5"
       }
@@ -29,9 +29,9 @@
          "lName":"EPSNBRPM",
          "category":"COPY",
          "library":"SYSLIB",
-         "file":"src/main/cobol/copybook/epsnbrpm.cpy",
+         "file":"src/main/copy/epsnbrpm.cpy",
          "buildState":"87347e8fa01351f6fea5e0dc6e03284e971a63f8",
-         "source":"MortgageApplication"
+         "source":"MA-Gradle"
       }
    ],
    
